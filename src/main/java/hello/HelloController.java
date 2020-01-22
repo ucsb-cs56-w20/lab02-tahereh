@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class HelloController {
+
+    @RequestMapping("/")
    public String index() {
     
     String html = "<h1>Hello World!</h1>\n" +
